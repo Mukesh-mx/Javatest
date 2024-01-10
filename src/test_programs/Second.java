@@ -2,8 +2,7 @@ package test_programs;
 
 public class Second {
     public static void main(String[] args) {
-        String inputString = "YourStringHere"; // Replace with the actual string
-        int vowels = 0;
+        String inputString = "YourStringHere";
         int consonants = 0;
 
         inputString = inputString.toLowerCase();
