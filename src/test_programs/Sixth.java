@@ -10,21 +10,13 @@ public class Sixth {
         String message;
 
         switch (score) {
-            case 0:
-            case 1:
-            case 2:
-            case 3:
+            case 0,1,2,3:
                 message = "When can we meet you to explain the roles and responsibilities of a resident?";
                 break;
-            case 4:
-            case 5:
-            case 6:
-            case 7:
+            case 4,5,6,7:
                 message = "You have taken a step in the right direction!";
                 break;
-            case 8:
-            case 9:
-            case 10:
+            case 8,9,10:
                 message = "Thank you for going the extra mile! Would you be interested in training others?";
                 break;
             default:
